@@ -5,6 +5,66 @@
     <title></title>
 </head>
 <body>
-fasz
+<div id="everything">
+    <div id="header">
+        <div id="banner">
+            <div id="menuBar">
+                <table width="100%">
+                    <tr>
+                        <td>Library</td>
+                        <td><span class="menuButton"><a href="index.html">Home</a></span></td>
+                        <td><span class="menuButton"><a href="bookform.html">Add Books</a></span></td>
+                        <td><span class="menuButton"><a href="authorform.html">Add Authors</a></span></td>
+                        <td><span class="menuButton"><a href="asd.html">asd</a></span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <form action="addBook" method="post">
+            <table>
+                <tr>
+                    <td>title</td>
+                    <td><input name="title" type="text" required="required"></td>
+                </tr>
+                <tr>
+                    <td>genre</td>
+                    <td><select name="genre">
+                        <option value="Scifi">Scifi</option>
+                        <option value="vigyázz">Alma</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>
+                        author
+                    </td>
+                    <td><input type="password" name="author"></td>
+                </tr>
+                <tr>
+                    <td>
+                        quantity
+                    </td>
+                    <td><input type="number" name="quantity"></td>
+                </tr>
+                <tr>
+                    <td>
+                        available
+                    </td>
+                    <td><input type="number" name="available"></td>
+                </tr>
+                <tr>
+                    <td>
+                        publisher
+                    </td>
+                    <td><input type="email" name="publisher"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add Book"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
 </body>
 </html>
