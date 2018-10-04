@@ -2,9 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Author</title>
 </head>
 <body>
+<div id="everything">
+    <div id="header">
+        <div id="banner">
+            <div id="menuBar">
+                <table width="100%">
+                    <tr>
+                        <td>Library</td>
+                        <td><span class="menuButton"><a href="index.html">Home</a></span></td>
+                        <td><span class="menuButton"><a href="bookform.html">Add Books</a></span></td>
+                        <td><span class="menuButton"><a href="authorform.html">Add Authors</a></span></td>
+                        <td><span class="menuButton"><a href="asd.html">asd</a></span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <form action="addAuthor" method="post">
+            <table>
+                <tr>
+                    <td>name</td>
+                    <td><input name="name" type="text" required="text"></td>
+                </tr>
+                <tr>
+                    <td>nationality</td>
+                    <td><select name="nationality">
+                        <option value="Hungary">Hungary</option>
+                        <option value="England">England</option>
+                        <option value="France">France</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>birth</td>
+                    <td><input name="birthDate" type="date" required="date"></td>
+                </tr>
+            </table>
+            <tr>
+                <td><input type="submit" value="Add Author"></td>
+            </tr>
+        </form>
+    </div>
 
+</div>
 </body>
 </html>
