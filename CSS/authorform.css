@@ -1,0 +1,54 @@
+.contentImage{
+    width:200px;
+}
+body{
+    background: darkgray;
+}
+#everything{
+    margin: auto;
+    width: 100%;
+}
+a:link{
+    color:gold;
+}
+a:visited{
+    color:gold;
+}
+#banner{
+    width: 100%;
+    height: 170px;
+    float: right;
+    background: orange;
+    font-size: 140px;
+    color:darkred;
+
+}
+#menuBar{
+    font-size: 17px;
+    float: left;
+    background: darkred;
+    margin-top: 100px;
+}
+#menuBar .menuButton{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid gold;
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+}
+#menuBar .menuButton:HOVER{
+    background: deeppink;
+    color: deeppink;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+.innerTable{
+    width: auto;
+}
+#submit{
+    margin-left: 200px;
+}

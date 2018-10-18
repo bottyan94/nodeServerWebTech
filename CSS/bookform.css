@@ -1,0 +1,54 @@
+.contentImage{
+    width:200px;
+}
+body{
+    background: darkmagenta;
+}
+#everything{
+    margin: auto;
+    width: 100%;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color:aqua;
+}
+#banner{
+    width: 100%;
+    height: 170px;
+    background: wheat;
+    font-size: 140px;
+    color:darkmagenta;
+    float:right;
+}
+#menuBar{
+    font-size: 17px;
+    float: left;
+    background: tomato;
+    margin-top: 50px;
+}
+#menuBar .menuButton{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid gold;
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+}
+#menuBar .menuButton:HOVER{
+    background: crimson;
+    color: crimson;
+}
+table{
+    width: 100%;
+    border: 1px solid goldenrod;
+}
+.innerTable{
+    width: auto;
+}
+#submit{
+    margin-left: 200px;
+}
+
